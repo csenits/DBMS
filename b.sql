@@ -1,0 +1,29 @@
+1.
+SELECT Onum, Amt, Odate FROM ORDERS;
+
+2.
+SELECT * FROM CUSTOMERS WHERE Snum = 1001;
+
+3.
+SELECT City, Sname, Snum FROM SALESPEOPLE;
+
+4.
+SELECT Rating, Cname FROM CUSTOMERS WHERE City = 'San Jose';
+
+5.
+SELECT DISTINCT Snum FROM ORDERS;
+
+6.
+SELECT * FROM ORDERS WHERE Amt > 1000;
+
+
+7.
+SELECT Sname, City FROM SALESPEOPLE WHERE City='London' AND Comm > .10;
+
+8.
+SELECT Cname FROM CUSTOMERS WHERE Rating > 100 OR City = 'Rome';
+
+9. 
+SELECT * FROM ORDERS WHERE (Amt < 1000 OR NOT (Odate = '1990-10-03' AND Cnum > 2003));
+
+
