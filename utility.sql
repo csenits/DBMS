@@ -1,0 +1,5 @@
+SHOW DATABASES;
+
+USE student_db;
+
+SHOW TABLES;
